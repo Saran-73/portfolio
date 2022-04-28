@@ -15,7 +15,8 @@
     object-fit:cover;
     object-position: top;
     border-radius: 0.5rem;
-    box-shadow: 3px 1px 10px 2px rgb(196, 189, 189);
+    box-shadow: 2px 2px 10px 1px rgb(143, 143, 143);
+    margin:1em;
   }
 .p-right{
     flex:1;
@@ -30,8 +31,10 @@
   gap:1em;
 }
 .btn{
-   border:0;
+   border:none;
    background-color:rgb(39, 185, 39);
    color:white;
    border-radius: 0.1em;
+   cursor:pointer;
+
 }

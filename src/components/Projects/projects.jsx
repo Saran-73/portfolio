@@ -13,7 +13,7 @@ const Projects = ({img,name,sitelink,codelink,description}) => {
            <p className='p-desc'>{description}</p>
            <div className='p-btn'>
            <a href={codelink} target="_blank" rel='noreferrer'><button className='btn'>Github</button></a>
-           <a href={sitelink} target="_blank" rel='noreferrer'><button  className='btn'>View</button></a>
+           <a href={sitelink} target="_blank" rel='noreferrer'><button  className='btn'>View site</button></a>
            </div> 
            </div>
     </div>
