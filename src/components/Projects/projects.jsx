@@ -1,7 +1,7 @@
 import React from 'react'
 import "./project.css"
 
-const Projects = ({img,name,sitelink,codelink,description}) => {
+const Projects = ({img,name,sitelink,codelink,description,stack}) => {
     
   return (
     <div className='p'> 
@@ -11,6 +11,7 @@ const Projects = ({img,name,sitelink,codelink,description}) => {
       <div className="p-right">
            <h2 className="p-right-title">{name}</h2>
            <p className='p-desc'>{description}</p>
+           <p className='p-stack'>{`Built with : ${stack}`}</p>
            <div className='p-btn'>
            <a href={codelink} target="_blank" rel='noreferrer'><button className='btn'>Github</button></a>
            <a href={sitelink} target="_blank" rel='noreferrer'><button  className='btn'>View site</button></a>

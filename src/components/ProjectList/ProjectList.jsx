@@ -9,7 +9,8 @@ const ProjectList = () => {
                      sitelink={x.sitelink}
                      codelink={x.codelink}
                      name={x.name}
-                     description={x.description} />
+                     description={x.description}
+                     stack={x.techused} />
     }) 
   return (
     <div className='pl'>

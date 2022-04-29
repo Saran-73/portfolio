@@ -30,10 +30,11 @@
  display: grid;
  place-items: center;
  width:4.5rem;
+ aspect-ratio: 1;
 }
 
 .a-skill-card img{
-    width:4.5rem;
+    width:3rem;
     aspect-ratio:1;
 }
 
@@ -65,6 +66,7 @@
     flex-wrap:wrap;
     padding:1rem;
     gap:2rem;
+    font-size:0.7em;
     }
     .a-header{
         font-size:2rem;
@@ -74,6 +76,6 @@
         aspect-ratio:1;
     }
     .a-skill-card > div{
-        width:2rem;
+        width:2.8rem;
        }
 }
