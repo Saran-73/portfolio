@@ -20,7 +20,7 @@ const Intro = () => {
                         </div>
                </div>
                <div className="i-right">
-                   {/* <div className="i-bg"></div> */}
+                   <div className="i-bg"></div>
                 <img src={me} alt="my image" className="i-img" />
                </div>
         </div>

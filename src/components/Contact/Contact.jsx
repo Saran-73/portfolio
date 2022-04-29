@@ -34,10 +34,11 @@ const Contact = () => {
                 </div>
            </div>
          <div className="c-right">
+             <p>Send me a mail</p>
                   <form ref={formRef} onSubmit={handleSubmit}>
                       <input type="text" placeholder='Name' name="user_name" />
                       <input type="mail" placeholder='E-mail' name="user_email"/>
-                      <input type="text" placeholder='Subject' name="user_subject"/>
+                      <input type="text" placeholder='Subject' name="user_subject" className='c-subject'/>
                       <textarea placeholder='Message' name="message" />
                       <button>Submit</button>
                   </form>

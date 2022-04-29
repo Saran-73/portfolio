@@ -11,15 +11,13 @@ const Skills = () => {
   return (
     <div className='a'>
       <h1 className='a-header'>SKILLS</h1>
-      <div className="a-skill">
+      <div className="a-skill-card">
         <img src={html} alt="html logo" className="a-html" />
         <img src={css} alt="" className="a-css" />
         <img src={javascript} alt="" className="a-javascript" />
         <img src={react} alt="" className="a-react" />
         <img src={git} alt="" className="a-git" />
-
       </div>
-      {/* <div className="a-right"></div> */}
     </div>
   )
 }
