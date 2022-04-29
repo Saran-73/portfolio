@@ -5,7 +5,7 @@
 .p-left{
     flex:1;
     border-radius: 0.5rem;
-    /* overflow: hidden; */
+    overflow: hidden;
     align-self: center;
     display:flex;
     align-items: center;
@@ -13,6 +13,7 @@
 }
 .p-img{
     width:clamp(10rem,90%,25rem);
+    height:clamp(10rem,90%,25rem);
     object-fit:cover;
     object-position:start;
     border-radius: 0.5rem;
@@ -28,7 +29,7 @@
 }
 .p-btn{
   display:flex;
-  gap:1em;
+  gap:2rem;
 }
 .btn{
    border:none;
@@ -46,24 +47,6 @@
   font-size: 1.3rem;
   }
 
-@media (max-width:480px){
-  .p{
-    flex-direction:column;
-  }
-  .p-right{
-    flex:1;
-    padding:1.3em;
-    padding-top:2rem;
-}
-  .p-right-title{
-    font-size: 1rem;
-    }
-  p .p-desc{
-    font-size: 1rem;
-    }
-  
-}
-
 @media (max-width:990px){
   .p{
     flex-direction:column;
@@ -80,4 +63,21 @@
 .p-right-title{
   font-size: 1.2rem;
   }
+}
+@media (max-width:480px){
+  .p{
+    flex-direction:column;
+  }
+  .p-right{
+    flex:1;
+    padding:1.3em;
+    padding-top:2rem;
+}
+  .p-right-title{
+    font-size: 1rem;
+    }
+  p .p-desc{
+    font-size: 1rem;
+    }
+  
 }

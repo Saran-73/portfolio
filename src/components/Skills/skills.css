@@ -18,7 +18,7 @@
     border-radius:0.5rem;
     display:flex;
     justify-content:space-evenly;
-    width:clamp(15rem, 60%, 50rem);
+    width:clamp(10rem, 60%, 50rem);
     padding:2.5rem;
     background-color:rgb(255, 255, 255);
     box-shadow: 3px 1px 10px 2px rgb(196, 189, 189);
@@ -27,8 +27,19 @@
 
 }
 .a-skill-card img{
-    width:6rem;
+    width:4.5rem;
     aspect-ratio:1;
+}
+
+@media (max-width:780px){
+    .a-skill-card img{
+        width:3.5rem;
+        aspect-ratio:1;
+    }
+    .a{
+        height:100vh;
+        gap:1.5rem;
+        }
 }
 @media (max-width:480px){
     .a{
@@ -47,7 +58,7 @@
         font-size:2rem;
     }
     .a-skill-card img{
-        width:4rem;
+        width:2rem;
         aspect-ratio:1;
     }
 }
