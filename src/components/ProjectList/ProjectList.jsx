@@ -13,10 +13,8 @@ const ProjectList = () => {
     }) 
   return (
     <div className='pl'>
-       <div className="pl-texts">
            <h1 className="pl-title">PROJECTS</h1>
-           {/* <p className="pl-desc"></p> */}
-       </div>
+          
        <div className='pl-list'>
            {createCard}
        </div>

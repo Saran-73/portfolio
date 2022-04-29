@@ -34,7 +34,7 @@ const Contact = () => {
                 </div>
            </div>
          <div className="c-right">
-             <p>Send me a mail</p>
+             <p>Send E-mail</p>
                   <form ref={formRef} onSubmit={handleSubmit}>
                       <input type="text" placeholder='Name' name="user_name" />
                       <input type="mail" placeholder='E-mail' name="user_email"/>

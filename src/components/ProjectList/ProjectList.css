@@ -5,12 +5,8 @@
     align-items: center;
     text-align: center;
     gap: 3rem;
-  
 }
-
-.pl-texts{
-    width:60%;
-}
+      
 .pl-title{
     font-size: 50px;
     font-weight: 600;
@@ -19,6 +15,20 @@
 .pl-list{
     display: flex;
     flex-direction: column;
-    width:85%;
+    width:95%;
     gap:3rem;
+
+}
+@media (max-width:480px){
+.pl-list{
+    width:100%;
+    gap:1rem;
+}
+.pl{
+    padding:10px 10px;
+    gap:0.8em;
+}
+.pl-title{
+    font-size: 30px;
+}
 }

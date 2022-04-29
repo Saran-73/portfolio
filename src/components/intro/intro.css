@@ -7,12 +7,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border:1px solid red;
 }
 .i-right{
     flex:1;
     position:relative;
-    border:1px solid red;
 }
 .i-left-wrapper{
     padding:50px;
