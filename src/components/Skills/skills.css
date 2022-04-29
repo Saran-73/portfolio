@@ -29,7 +29,7 @@
 .a-skill-card > div{
  display: grid;
  place-items: center;
- width:4.5rem;
+ width:84px;
  aspect-ratio: 1;
 }
 
@@ -47,9 +47,6 @@
         height:100vh;
         gap:1.5rem;
         }
-        .a-skill-card > div{
-            width:3.5rem;
-           }
            .a-skill-card{
             gap:2.5rem;
             }
@@ -72,10 +69,11 @@
         font-size:2rem;
     }
     .a-skill-card img{
-        width:1.5rem;
+        width:2rem;
         aspect-ratio:1;
     }
     .a-skill-card > div{
-        width:2.8rem;
+        width:59px;
+        
        }
 }
