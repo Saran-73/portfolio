@@ -25,7 +25,7 @@ const Contact = () => {
      <div className="c-bg"></div>
      <div className="c-wrapper">
          <div className="c-left">
-             <h1 className='c-title'>CONTACT ME</h1>
+             <h1 className='c-title' id="contact">CONTACT ME</h1>
                  <div className="c-info-item">
                    <img src={phone} alt="phone icon" className="c-icon" />9500374199
                       </div>

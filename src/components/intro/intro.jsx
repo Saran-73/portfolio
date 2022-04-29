@@ -5,6 +5,10 @@ const Intro = () => {
     return (
         <div className="i">
                <div className="i-left">
+                   <ul className="i-navlist">
+                      <a href="#project-title"><li>Projects</li></a>
+                      <a  href="#contact"><li>Contact</li></a>
+                   </ul>
                     <div className="i-left-wrapper">
                         <h2 className="i-intro">Hi, My name is</h2>
                         <h1 className="i-name">Saran</h1>
@@ -14,10 +18,9 @@ const Intro = () => {
                             </div>
                         </div>
                         <div className="i-desc">
-                         As a front-end web Developer I can create dynamic, responsive Web applications using modern workflows.
+                         I build dynamic, responsive Web applications using modern workflows.
                         </div>
-                       
-                        </div>
+                    </div>
                </div>
                <div className="i-right">
                    <div className="i-bg"></div>

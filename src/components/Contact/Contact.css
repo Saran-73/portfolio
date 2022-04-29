@@ -97,6 +97,22 @@ button{
 .c-right p{
     font-weight:500;
 }
+@media (max-width:768px){
+    .c-wrapper{
+        gap:2rem;
+        flex-direction:column;
+        padding:15px 50px;
+    }
+   .c-right{
+       width:75%;
+       margin-inline:auto;
+       margin-bottom: 2em;
+   }
+   .c-left{
+        gap:0.6rem;
+        margin-inline:auto;
+}
+}
 @media screen and (max-width:480px){
     .c-wrapper{
         flex-direction:column;
@@ -137,21 +153,11 @@ button{
     .c-info-item{
         gap:5px;
     }
-}
-@media (max-width:768px){
-    .c-wrapper{
-        gap:2rem;
-        flex-direction:column;
-        padding:15px 50px;
+    .c-right{
+        flex:1;
+       width:95%;
+
     }
-   .c-right{
-       width:75%;
-       margin-inline:auto;
-       margin-bottom: 2em;
-   }
-   .c-left{
-        gap:0.6rem;
-        margin-inline:auto;
 }
-}
+
 

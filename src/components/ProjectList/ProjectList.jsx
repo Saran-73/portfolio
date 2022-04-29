@@ -13,7 +13,7 @@ const ProjectList = () => {
     }) 
   return (
     <div className='pl'>
-           <h1 className="pl-title">PROJECTS</h1>
+           <h1 className="pl-title" id="project-title">PROJECTS</h1>
           
        <div className='pl-list'>
            {createCard}
