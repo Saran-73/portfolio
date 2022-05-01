@@ -6,7 +6,7 @@ const Projects = ({image,name,sitelink,codelink,description,stack}) => {
   return (
     <div className='p'> 
       <div className="p-left">
-          <img src={`./assets/${image}`} alt={`the image of${name}`} className="p-img" />
+          <img src={`./assets/${image}`} alt={`the ${name}`} className="p-img" />
       </div>
       <div className="p-right">
            <h2 className="p-right-title">{name}</h2>
