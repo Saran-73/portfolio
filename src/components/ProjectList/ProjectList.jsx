@@ -5,7 +5,7 @@ import {projects} from "../../data.js"
 
 const ProjectList = () => {
    const createCard= projects.map(x=>{
-        return <Projects key={x.id} img={x.img}
+        return <Projects key={x.id} image={x.png}
                      sitelink={x.sitelink}
                      codelink={x.codelink}
                      name={x.name}
