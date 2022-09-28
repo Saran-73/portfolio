@@ -6,10 +6,10 @@ import Contact from "./components/Contact/Contact";
 function App() {
   return (
     <div className="App">
-     <Intro />
-     <Skills />
-     <ProjectList />
-     <Contact />
+      <Intro />
+      <Skills />
+      <ProjectList />
+      <Contact />
     </div>
   );
 }
