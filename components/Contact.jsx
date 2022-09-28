@@ -1,7 +1,4 @@
 import React,{useRef,useState} from 'react'
-import "./Contact.css"
-import phone from "../../image/phone-116.svg"
-import mail from "../../image/mail-272.svg"
 import emailjs from '@emailjs/browser';
 
 
@@ -27,10 +24,10 @@ const Contact = () => {
          <div className="c-left">
              <h1 className='c-title' id="contact">CONTACT ME</h1>
                  <div className="c-info-item">
-                   <img src={phone} alt="phone icon" className="c-icon" />9500374199
+                   <img src="/assets/image/phone-116.svg" alt="phone icon" className="c-icon" />9500374199
                       </div>
                        <div className="c-info-item">
-                    <img src={mail} alt="mail icon" className="c-icon" />saransamikannu@gmail.com
+                    <img src="/assets/image/mail-272.svg" alt="mail icon" className="c-icon" />saransamikannu@gmail.com
                 </div>
            </div>
          <div className="c-right">
